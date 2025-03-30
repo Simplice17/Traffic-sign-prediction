@@ -34,7 +34,6 @@ def main():
     # Fit model on training data
     print("\nTraining model...")
     history = model.fit(x_train, y_train,epochs=EPOCHS,
-        validation_data=(x_test, y_test),
         verbose=1
     )
 
